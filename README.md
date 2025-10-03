@@ -1,16 +1,47 @@
-# React + Vite
+# 🌦️ Weather App 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and responsive single-page weather application built with **React** and **Vite**, using **Open-Meteo API** for fetching current weather and a 5-day forecast. The app displays temperature, weather condition, wind, and humidity for any city worldwide.  
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Search weather by city** – Enter any city name to see the weather.  
+- **Current weather display** – Shows temperature, wind speed, humidity, and condition description.  
+- **5-day forecast** – Displays daily max/min temperature, humidity, and weather condition.  
+- **Responsive design** – Works well on mobile, tablet, and desktop.  
+- **Loading indicator & error handling** – Displays loading while fetching and a clear message if the city is not found.  
+- **LocalStorage support** – Remembers the last searched city.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- **React** – Frontend framework  
+- **Vite** – Development build tool  
+- **Axios** – HTTP requests to Open-Meteo API  
+- **CSS** – Styling & responsive design  
+- **Open-Meteo API** – Free weather data API (no API key required)  
+
+---
+
+## 💻 Installation & Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/weather-app.git
+
+cd weather-app
+
+Install dependencies
+
+npm install
+
+Run the app
+
+npm run dev
+
+Open your browser and visit:
+
+http://localhost:5173
